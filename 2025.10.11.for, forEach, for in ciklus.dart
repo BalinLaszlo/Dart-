@@ -107,7 +107,7 @@ void main() {
   // Szorgalmi feladatok:
   // 9. Indíts két egymásba ágyazott ciklust 1-től 6-ig.
   // Ha a két ciklusváltozó szorzata 9, akkor a belső ciklusból llépjen ki (break).
-  int szam2 = 9;
+  int szam2 = 6;
 
   for (int i = 0; i <= szam2; i++) {
     for (int j = 0; j <= szam2; j++) {
@@ -120,7 +120,7 @@ void main() {
   }
 
   // 10. Indíts két egymásba ágyazott ciklust 1-től 6-ig.Ha a két ciklusváltozó szorzata 9, akkor a külső ciklusból llépjen ki (break).
-  int szam1 = 9;
+  int szam1 = 6;
   outerloop:
   for (int i = 0; i <= szam1; i++) {
     for (int j = 0; j <= szam1; j++) {
